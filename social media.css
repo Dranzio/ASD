@@ -7,7 +7,7 @@ body
   align-items: center;
   min-height: 100vh;
     flex-direction: column;
-  background: #010615;
+  background: linear-gradient(45deg,#00696C,#00063F);
 }
 a
 {
