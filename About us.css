@@ -12,7 +12,7 @@ body
   align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
-  background: #010615
+  background: linear-gradient(45deg,#00696C,#00063F);
 }
 .box
 {
