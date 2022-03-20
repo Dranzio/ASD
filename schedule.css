@@ -1,14 +1,49 @@
-body
+*
 {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   min-height: 100vh;
-  background: #010615;
-  font-family: 'Poppins', sans-serif;
-  flex-direction: column;
+  background: linear-gradient(45deg,#00696C,#00063F);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+td
+{
+  border: 2px solid black;
+  outline: #4CAF50 solid 5px;
+  margin: auto;  
+  padding: 10px;
+  text-align: center;
+}
+p
+{
+  position: center;
+  color: #fff;
+    text-transform: uppercase;
 }
 a
 {
